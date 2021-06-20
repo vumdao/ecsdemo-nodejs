@@ -5,10 +5,8 @@ metadata:
 spec:
   selector:
     app: ecsdemo-nodejs
-  type: NodePort
   ports:
    -  protocol: TCP
-      nodePort: 30816
       port: 80
       targetPort: 3000
 
